@@ -1,0 +1,17 @@
+body {
+    background-color: white;
+}
+
+h1 {
+    color:rgb(31, 63, 167);
+    background-color: white;
+    text-align:center;
+}
+
+.text {
+    text-align:center;
+}
+
+.wichtig {
+    font-weight:bold;
+}

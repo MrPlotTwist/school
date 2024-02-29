@@ -1,0 +1,38 @@
+# depslib dependency file v1.0
+1584205420 source:c:\users\tomi2\onedrive\desktop\oasencrawler\oasencrawler\main.cpp
+	<iostream>
+
+1709138592 source:c:\users\tomi\onedrive\test\2. semester\objektorientierte programmierung (progr-de)\oasencrawler\oasencrawler\src\character.cpp
+	"character.h"
+
+1709138592 c:\users\tomi\onedrive\test\2. semester\objektorientierte programmierung (progr-de)\oasencrawler\oasencrawler\include\character.h
+
+1709152205 source:c:\users\tomi\onedrive\test\2. semester\objektorientierte programmierung (progr-de)\oasencrawler\oasencrawler\main.cpp
+	<iostream>
+	"character.h"
+	<conio.h>
+	<cstdlib>
+	<ctime>
+	"world.h"
+
+1709151513 c:\users\tomi\onedrive\test\2. semester\objektorientierte programmierung (progr-de)\oasencrawler\oasencrawler\include\world.h
+
+1709152576 source:c:\users\tomi\onedrive\test\2. semester\objektorientierte programmierung (progr-de)\oasencrawler\oasencrawler\src\world.cpp
+	<iostream>
+	<cstdlib>
+	<ctime>
+	"world.h"
+
+1709153436 source:c:\users\tomi2\onedrive\test\2. semester\objektorientierte programmierung (progr-de)\oasencrawler\oasencrawler\src\character.cpp
+	"character.h"
+
+1709153442 c:\users\tomi2\onedrive\test\2. semester\objektorientierte programmierung (progr-de)\oasencrawler\oasencrawler\include\character.h
+
+1709153414 source:c:\users\tomi2\onedrive\test\2. semester\objektorientierte programmierung (progr-de)\oasencrawler\oasencrawler\src\world.cpp
+	<iostream>
+	<cstdlib>
+	<ctime>
+	"world.h"
+
+1709151513 c:\users\tomi2\onedrive\test\2. semester\objektorientierte programmierung (progr-de)\oasencrawler\oasencrawler\include\world.h
+

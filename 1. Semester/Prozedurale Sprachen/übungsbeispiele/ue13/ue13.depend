@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1699221037 source:c:\users\tomi\onedrive\schule\prozedurale sprachen\übungsbeispiele\ue13\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

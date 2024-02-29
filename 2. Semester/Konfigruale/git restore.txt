@@ -1,0 +1,11 @@
+git file restoren:
+
+git rm filename.txt
+
+git restore --staged filename.txt (file wird vom letzten commit heruntergeladen)
+
+git restore filename.txt
+
+git checkout HEAD~1 (vorletzer commit wird geladen)
+
+git -n "Hello World!" | git hash object -w --stdin (Hello World! wird ohne file ausgeprintet)

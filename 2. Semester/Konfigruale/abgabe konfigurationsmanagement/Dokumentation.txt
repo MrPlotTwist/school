@@ -1,0 +1,42 @@
+Fragen wurden entweder auf der Powerpoint beantwortet oder in diesem Dokument.
+
+The first repository
+What is the command for it? What are the options? What exactly happens in the process?
+A: git init; git initialisiert ein neues repository im aktuellen Pfad und macht eine .git Datei, welche die Metadaten für den Pfad speichert
+
+Global config
+To set up your name and email address once, configure it via git config. What is the full command? What options are there? Where are global settings stored in Git?
+A: git config --global user.name / git config --global user.email
+	Nachdem der Befehl eingegeben wird, wird der Name und die Email global in Git gesetzt; wird in C:\Users\Name\.gitconfig normalerweise gespeichert
+
+Status
+On the Git Bash, check the status. What is the command for this? What result do you get and how do you interpret it?
+A: git status; sagt mir ob es Dateien gibt die noch nicht commitet sind oder ob Dateien geändert wurden
+
+Put file in the repository
+Now add this file to your created repository. What are the commands for doing this? What steps are necessary and what results do you get? How do you interpret the output? Where does Git store the files?
+A: git add "file"; git commit -m "file"; Die file wird erfolgreich zum reposirtory hinzugefügt; die files werden in der .git/objects Datenbank gespeichert
+
+SHA1
+You have now created Git Objects. Which ones (according to the Data Model) and where are they located? How can you find the SHA1 key of the blob object? What is the command for this?
+A: Blob objects; Tree objects; Beide werden in der git Objekt Datenbank gespeichert; git hash-object file.txt um SHA1 key von blob object zu finden;
+
+Search and output via SHA1
+How can you output the contents of the file only by specifying the SHA1 key? What is the command and what options does it provide?
+A: git cat-file -p <SHA1>; Damit kann man den Inhalt ausgeben.
+
+Blobs
+You have now created the first 2 blob objects in the repository Now create the first commit object. Which command do you use for it? What options does it offer? Where are commit objects stored?
+A: git add file; git commit -m "file"; wird in der git Objekt Datenbank gespeichert.
+
+Delete
+A: Delete a file and then restore it. What command do you use for this? From where is the file restored?
+Git greift auf die gelöschte Datei in der Objekt Datenbank zu;
+
+Checkout
+Look at the history and try to go back to the penultimate version. Now look at the history again. What does HEAD mean? What is main/master? What other options does the command you just used offer?
+A: HEAD: head ist immer der letzte commit; main/master: default branch name, wo hauptsächlich gearbeitet wird; -b <branch_name>: erstellt neue branch und wechselt automatisch dahin.
+-f, --force: forced checkout
+--detach: ein commit wird ausgecheckt ohne eine neue branch zu erstellen
+<commit_SHA>: mit dem SHA-1 hash kann man einen spezifischen commit sofort auschecken
+--: unterschiedliche branch und Pfad namen

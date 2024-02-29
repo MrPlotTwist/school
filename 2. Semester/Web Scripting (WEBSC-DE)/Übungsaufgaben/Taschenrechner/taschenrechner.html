@@ -1,0 +1,22 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taschnerechner</title>
+    <script src="javascript.js"></script>
+</head>
+<body>
+    <form name="rechner">
+        Eingabe der ersten Zahl:<br> <input type="text" name="input1" id = "input1" size="20"><br>
+        Eingabe der zweiten Zahl:<br> <input type="text" name="input2" id = "input2" size="20"><br>
+        Ergebnis: <div id="ergebnis"></div><br>
+        <input type="button" value="Addieren" onclick="addieren()">
+        <input type="button" value="Subtrahieren" onclick="subtrahieren()">
+        <input type="button" value="Multiplizieren" onclick="multiplizieren()">
+        <input type="button" value="Dividieren" onclick="dividieren()">
+        <br><br>
+        Verlauf:
+        <div id="history"></div>
+    </form>
+</body>
+</html>

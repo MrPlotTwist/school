@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1702084268 source:c:\users\tomi\onedrive\schule\prozedurale sprachen\zwischentest 3\zwischentest 3\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

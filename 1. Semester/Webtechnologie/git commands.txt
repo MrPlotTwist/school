@@ -1,0 +1,45 @@
+tomi@Thom▒▒r MINGW64 ~/OneDrive/Schule/Webtechnologie/Semesterprojekt/Web_Hotel_Project (main)
+$ git commit -a
+fatal: Unable to create 'C:/Users/tomi/OneDrive/Schule/Webtechnologie/Semesterprojekt/Web_Hotel_Project/.git/index.lock': File exists.
+
+
+E325: ATTENTION
+Found a swap file by the name "C:/Users/tomi/OneDrive/Schule/Webtechnologie/Semesterprojekt/Web_Hotel_Project/.git/.COMMIT_EDITMSG.swp"
+          owned by: tomi   dated: Tue Nov 14 14:19:21 2023
+         file name: ~tomi/OneDrive/Schule/Webtechnologie/Semesterprojekt/Web_Hotel_Project/.git/COMMIT_EDITMSG
+          modified: YES
+         user name: tomi   host name: Thom<e4><e4>r
+        process ID: 28856
+While opening file "C:/Users/tomi/OneDrive/Schule/Webtechnologie/Semesterprojekt/Web_Hotel_Project/.git/COMMIT_EDITMSG"
+             dated: Tue Nov 14 14:20:39 2023
+      NEWER than swap file!
+test
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+
+tomi@Thom▒▒r MINGW64 ~/OneDrive/Schule/Webtechnologie/Semesterprojekt/Web_Hotel_Project (main)
+$ rm -f .git/index.lock
+
+tomi@Thom▒▒r MINGW64 ~/OneDrive/Schule/Webtechnologie/Semesterprojekt/Web_Hotel_Project (main)
+$ git commit -a
+[main b989016] test
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+tomi@Thom▒▒r MINGW64 ~/OneDrive/Schule/Webtechnologie/Semesterprojekt/Web_Hotel_Project (main)
+$ git push origin main
+fatal: AggregateException encountered.
+   Mindestens ein Fehler ist aufgetreten.
+Counting objects: 5, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 423 bytes | 0 bytes/s, done.
+Total 5 (delta 4), reused 0 (delta 0)
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
+To https://github.com/ShadyMate/Web_Hotel_Project.git
+   dfaabf5..b989016  main -> main
+
+tomi@Thom▒▒r MINGW64 ~/OneDrive/Schule/Webtechnologie/Semesterprojekt/Web_Hotel_Project (main)
+$

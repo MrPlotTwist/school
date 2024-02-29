@@ -1,0 +1,17 @@
+ld 0
+st a ;Summe
+st b ;Laufvariable
+ld 3
+st c ;Abbruchbedingung
+st d :weiter ;Schleifenlabel
+in e ;scanf
+ld e
+add a ;Summe +=
+st a
+ld b ;Laufvariable erhoehen
+add 1
+st b
+cmp c ;Vergleich
+jlt weiter
+out a ;Ausgabe
+end
